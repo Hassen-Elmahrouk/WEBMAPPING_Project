@@ -26,7 +26,6 @@ To initiate the project, follow these steps:
      CREATE TABLE mytable (
        id SERIAL PRIMARY KEY,
        shape_type VARCHAR,
-       var_char_column VARCHAR,
        geometry GEOMETRY
      );
      ```
@@ -50,7 +49,5 @@ To initiate the project, follow these steps:
 4. **Publish Layers from GeoServer:**
    - After launching GeoServer, publish the layers needed for your web mapping application.
 
-### Note
 
-Make sure to customize database and server configurations in the respective files according to your environment.
 
